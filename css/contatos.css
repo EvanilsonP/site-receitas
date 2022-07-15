@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background: #FFC107;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+     box-shadow: 0px 4px 4px rgba(90, 87, 87, 0.971);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background: #FFA000;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 7px 30px 7px 30px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    background: #FFC107; 
+}
+
+footer p {
+    padding-left: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-msg {
+    position: relative;
+    text-align: center;
+}
+
+#msg-img-1 {
+    font-size: 70px;
+    text-align: left;
+    position: absolute;
+    color: white;
+    bottom: 170px;
+    left: 180px
+}
+
+
+aside {
+box-sizing: border-box;
+position: absolute;
+width: 820px;
+height: 768px;
+left: 492px;
+top: 590px;
+
+border-radius: 1%;
+border-style: solid;
+border-color: #FFA000;
+
+}
+
+aside h1 {
+    color: #FFC107;
+    position: relative;
+    bottom: 10px;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 40px
+}
+
+.mensagem {
+    padding-left: 500px;
+    padding-bottom: 300px;
+}
+
+.mensagem-2 {
+    padding-bottom: 15px;
+    padding-left: 500px;
+}
+
+.mensagem::-webkit-input-placeholder { /* Edge */
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    font-family: Nunito;
+  }
+
+.mensagem-2::-webkit-input-placeholder {
+    position: absolute;
+    left: 25px;
+    top: 5px;
+    font-family: Nunito;
+  }
+
+  main div img {
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 115px;
+  }
+
+  form button {
+  margin-top: 10px;
+  background: #FFC107;
+  color: white;
+  border-style: none;
+  border-radius: 50px;
+  font-family: Nunito;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+form input {
+    border-style: solid;
+    border-color: #FFA000;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+#img-inicio {
+    width: 100%;
+}

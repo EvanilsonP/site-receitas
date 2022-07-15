@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(219, 138, 17);
+
+}
+
+footer p {
+    padding-left: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

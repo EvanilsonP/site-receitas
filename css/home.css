@@ -1,0 +1,131 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: rgb(219, 138, 17);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(90, 87, 87, 0.971);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 7px 30px 7px 30px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(219, 138, 17);
+    
+}
+
+footer p {
+    padding-left: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#recipe-list {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+#recipe-list li {
+    display: inline-block;
+    margin-left: 55px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: orange;
+}
+
+
+.btn-conf {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(10, 94, 10);
+    color: white;
+    border: none;
+    
+}
+
+.container-banner, .down-banner { 
+    position: relative;
+    text-align: center;
+}
+
+.container-banner img {
+    border-color: blueviolet;
+}
+
+.frase-over-img {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 300px;
+    left: 900px;
+}
+
+.frase-over-2 {
+    color: white;
+    position: absolute;
+    font-size: 70px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    bottom: 520px;
+    left: 170px;
+}
+
+.frase-over-3 {
+    font-size: 20px;
+    font-weight: 550;
+    color: white;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    bottom: 230px;
+    left: 100px;
+    text-align: left;
+}
+
+
+#banner{
+    width: 100%;
+}
